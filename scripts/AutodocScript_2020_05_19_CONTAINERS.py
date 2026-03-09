@@ -1229,13 +1229,13 @@ if alteryxEnv: #Alteryx Environment
 else: 
     if __name__ == "__main__":
         #This is a test path for non alteryx env#
-        wkdir = "C:\\Users\\adilsonss\\OneDrive - Suzano S A\\PrintSap\\Notebok\\alteryx_doc\\Alteryx_Auto_Documenter_Functional"
+        wkdir = "C:\\Users\\adilsonss\\OneDrive - Suzano S A\\PrintSap\\Notebok\\alteryx_doc"
         os.chdir(wkdir)
         outpath = os.getcwd()+"\\outputs\\"
 
         import os
         filelist = []
-        filelist.append("C:\\Users\\adilsonss\\OneDrive - Suzano S A\\PrintSap\\Notebok\\alteryx_doc\\Alteryx_Auto_Documenter_Functional\\Image Workflow.yxwz")
+        filelist.append("C:\\Users\\adilsonss\\OneDrive - Suzano S A\\PrintSap\\Notebok\\alteryx_doc\\Image Workflow.yxwz")
 
         if debug:
             for f in filelist:
