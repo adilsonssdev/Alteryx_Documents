@@ -1,9 +1,8 @@
+# Diretórios gerados pelo Alteryx Auto Documenter (não devem ir para o Git)
 outputs/
-appdata/
-packages/
 scripts/outputs/
-*.report
-__pycache__/
-*.whl
+# __pycache__/
+
+# Arquivos de chave e credenciais
 .env
 .venv

@@ -1,0 +1,95 @@
+{
+    "DbFileInput": "img/Input.png",
+    "DbFileOutput": "img/Output2.png",
+    "TextInput":"img/TextInput.png",
+    "BrowseV2":"img/BrowseV2.png",
+    "DateTimeNow":"img/MacroDateTimeNow.png",
+
+    "Formula":"img/Formula.png",
+    "MultiRowFormula":"img/FormulaMultiRow.png",
+    "MultiFieldFormula":"img/FormulaMultiCol.png",
+    "Unique":"img/Unique.png",
+    "Filter":"img/Filter.png",
+    "AlteryxSelect":"img/Select.png",
+    "Sample":"img/Sample.png",
+    "RecordID":"img/RecordID123.png",
+    "Create_Samples":"img/CreateSamples.png",
+    "Imputation_v2":"img/Imputation.png",
+    "Oversample_Field":"img/OversampleField.png",
+    "Cleanse":"img/DataCleansing.png",
+    "MultiFieldBinning":"img/MultiBin.png",
+    "RandomRecords":"img/MacroRandomSample.png",
+
+    "AppendFields":"img/AppendFields.png",
+	"Join":"img/MolecularJoin2.png",
+    "Union":"img/Union.png",
+
+    "TextToColumns":"img/TextToColumns.png",
+    "RegEx":"img/RegEx.png",
+    "DateTime":"img/Date_Time.png",
+    "XMLParse":"img/XML_Parse.png",
+    
+	"CrossTab":"img/CrossTabPivot.png",
+    "Transpose":"img/TransposePivot.png",
+    "CountRecords":"img/MacroCountRecords.png",
+    "Summarize":"img/Summarize.png",
+    "WeightedAvg":"img/Macro_WeightedAvg.png",
+    "RunningTotal":"img/runningtotal.png",
+
+
+    "Insights":"img/Insight.png",
+    "PortfolioComposerImage":"img/ComposerGraphic.png",
+    "PlotlyCharting":"img/InteractiveChart.png",
+    "PortfolioComposerRender":"img/Render.png",
+    "PortfolioComposerLayout":"img/Layout.png",
+    "Legend_Builder":"img/Legend_Build.png",
+    "FooterMacro":"img/Footer.png",
+    "Legend_Splitter":"img/Legend_Split.png",
+    "HeaderMacro":"img/header.png",
+    "ReportMap":"img/ComposerMap.png",
+    "PortfolioComposerText":"img/ComposerText.png",
+    "PortfolioComposerTable":"img/ComposerTable.png",
+
+    "Condition":"img/Condition_tool.png",
+    "ControlParam":"img/ControlParameter.png",
+    "CheckBoxGroup":"img/CheckBox.png",
+    "ListBox":"img/DropDownListBox.png",
+    "QuestionTextBox":"img/Question_TextBox_2.png",
+
+    "Association_Analysis":"img/AssociationAnalysis.png",
+    "BasicDataProfile":"img/DataProfile.png",
+    "Distribution_Analysis":"img/DistributionAnalysis.png",
+    "Heat_Plot":"img/HeatPlot.png",
+    "SpearmanCorrCoeff":"img/MacroSpearman.png",
+
+    "Boosted_Model":"img/BoostedModel.png",
+    "Forest_Model":"img/randomForest.png",
+    "Gamma_Regression":"img/Gamma.png",
+    "Linear_Regression":"img/lm.png",
+    "Logistic_Regression":"img/logistic.png",
+    "Naive_Bayes":"img/NaiveBayes.png",
+    "Nested_Test":"img/PredictiveModeling_Nested.png",
+    "Neural_Network":"img/NeuralNetworks.png",
+    "Spline_Model":"img/SplineModel.png",
+    "SVM_v2":"img/SVM.png",
+
+    "AB_Analysis":"img/ABTestAnalysis.png",
+    "AB_Controls":"img/ABControlSelect.png",
+    "AB_Treatments":"img/ABTreatmentSelect.png",
+    "AB_Trend":"img/ABTrend.png",
+
+    "TimeSeriesFiller":"img/TimeSeries_Filler.png",
+    "TS_Covariate_Forecast":"img/TS_Forecast_x.png",
+
+    "K-Centroids_Diagnostics":"img/K-Centroids_Diagnostic.png",
+    "MB_Inspect":"img/MarketBasketInspect.png",
+    "MB_Rules":"img/MarketBasketAnalysis.png",
+    "Principal_Components":"img/PrincipalComponents.png",
+
+    "SimSampling":"img/Sim_Sampling.png",
+    "SimScoring":"img/Sim_Scoring.png",
+    "SimSummary":"img/Sim_Summary.png",
+
+    "JupyterCode":"img/Python.png"
+
+}
