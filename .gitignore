@@ -1,0 +1,9 @@
+outputs/
+appdata/
+packages/
+scripts/outputs/
+*.report
+__pycache__/
+*.whl
+.env
+.venv

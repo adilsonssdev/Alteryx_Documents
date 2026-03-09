@@ -1,0 +1,698 @@
+<?xml version="1.0"?>
+<AlteryxDocument yxmdVer="2024.1" RunE2="T">
+  <Nodes>
+    <Node ToolID="1">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.MultiFieldFormula.MultiFieldFormula">
+        <Position x="561" y="174" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <FieldType>Text</FieldType>
+          <Fields orderChanged="False">
+            <Field name="NAME" />
+            <Field name="ADDRESS" />
+            <Field name="CITY" />
+            <Field name="STATE" />
+            <Field name="*Unknown" selected="False" />
+          </Fields>
+          <NewFieldAddOn>New_</NewFieldAddOn>
+          <NewFieldAddOnPos>Prefix</NewFieldAddOnPos>
+          <CopyOutput value="True" />
+          <Expression>Uppercase([_CurrentField_])</Expression>
+          <ChangeFieldType value="False" />
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText>Uppercase([_CurrentField_])</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxMultiFieldFormula" />
+    </Node>
+    <Node ToolID="3">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.TextInput.TextInput">
+        <Position x="210" y="174" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <NumRows value="13" />
+          <Fields>
+            <Field name="NAME" />
+            <Field name="ADDRESS" />
+            <Field name="CITY" />
+            <Field name="STATE" />
+            <Field name="ZIP" />
+            <Field name="January" />
+            <Field name="February" />
+            <Field name="March" />
+            <Field name="April" />
+            <Field name="May" />
+            <Field name="June" />
+            <Field name="July" />
+            <Field name="August " />
+            <Field name="September" />
+            <Field name="October" />
+            <Field name="November" />
+            <Field name="December" />
+            <Field name="Total " />
+          </Fields>
+          <Data>
+            <r>
+              <c>All Creatures Great and Small</c>
+              <c>900 Camel Dr</c>
+              <c>Gillette</c>
+              <c>WY</c>
+              <c>82716</c>
+              <c>125000</c>
+              <c>122000</c>
+              <c>130000</c>
+              <c>102000</c>
+              <c>98000</c>
+              <c>136000</c>
+              <c>120000</c>
+              <c>94000</c>
+              <c>156000</c>
+              <c>110000</c>
+              <c>116000</c>
+              <c>118000</c>
+              <c>1427000</c>
+            </r>
+            <r>
+              <c>Animal House</c>
+              <c>123 S 2nd St</c>
+              <c>Douglas</c>
+              <c>WY</c>
+              <c>82633</c>
+              <c>75000</c>
+              <c>62000</c>
+              <c>68000</c>
+              <c>79000</c>
+              <c>85000</c>
+              <c>65000</c>
+              <c>60000</c>
+              <c>89000</c>
+              <c>74000</c>
+              <c>62000</c>
+              <c>61000</c>
+              <c>78000</c>
+              <c>858000</c>
+            </r>
+            <r>
+              <c>Aquatics and Critters</c>
+              <c>601 SE Wyoming Blvd Unit 252</c>
+              <c>Casper</c>
+              <c>WY</c>
+              <c>82609</c>
+              <c>110000</c>
+              <c>96500</c>
+              <c>112000</c>
+              <c>102000</c>
+              <c>98000</c>
+              <c>99000</c>
+              <c>101000</c>
+              <c>104000</c>
+              <c>115000</c>
+              <c>113000</c>
+              <c>97000</c>
+              <c>103000</c>
+              <c>1250500</c>
+            </r>
+            <r>
+              <c>Barn</c>
+              <c>2625 Big Horn Ave</c>
+              <c>Cody</c>
+              <c>WY</c>
+              <c>82414</c>
+              <c>90000</c>
+              <c>74000</c>
+              <c>88000</c>
+              <c>84000</c>
+              <c>77000</c>
+              <c>81000</c>
+              <c>87000</c>
+              <c>94000</c>
+              <c>89000</c>
+              <c>84000</c>
+              <c>86000</c>
+              <c>77000</c>
+              <c>1011000</c>
+            </r>
+            <r>
+              <c>Fins and Feathers Pet Shoppe</c>
+              <c>512 E Main St</c>
+              <c>Riverton</c>
+              <c>WY</c>
+              <c>82501</c>
+              <c>220000</c>
+              <c>205000</c>
+              <c>218000</c>
+              <c>216000</c>
+              <c>200000</c>
+              <c>209000</c>
+              <c>204000</c>
+              <c>210000</c>
+              <c>221000</c>
+              <c>199000</c>
+              <c>207000</c>
+              <c>219000</c>
+              <c>2528000</c>
+            </r>
+            <r>
+              <c>Mutt Hut</c>
+              <c>509 Fort St # A</c>
+              <c>Buffalo</c>
+              <c>WY</c>
+              <c>82834</c>
+              <c>185000</c>
+              <c>116000</c>
+              <c>182000</c>
+              <c>174000</c>
+              <c>176000</c>
+              <c>189000</c>
+              <c>170000</c>
+              <c>140000</c>
+              <c>135000</c>
+              <c>138000</c>
+              <c>149000</c>
+              <c>180000</c>
+              <c>1934000</c>
+            </r>
+            <r>
+              <c>Pet City</c>
+              <c>1400 Dell Range Blvd</c>
+              <c>Cheyenne</c>
+              <c>WY</c>
+              <c>82009</c>
+              <c>110000</c>
+              <c>97000</c>
+              <c>112000</c>
+              <c>116000</c>
+              <c>98000</c>
+              <c>95000</c>
+              <c>94000</c>
+              <c>114000</c>
+              <c>112000</c>
+              <c>110000</c>
+              <c>102000</c>
+              <c>104000</c>
+              <c>1264000</c>
+            </r>
+            <r>
+              <c>Pet Food Outlet</c>
+              <c>200 E Lakeway Rd</c>
+              <c>Gillette</c>
+              <c>WY</c>
+              <c>82718</c>
+              <c>95000</c>
+              <c>83000</c>
+              <c>94000</c>
+              <c>98000</c>
+              <c>100000</c>
+              <c>83000</c>
+              <c>84000</c>
+              <c>86000</c>
+              <c>94000</c>
+              <c>98000</c>
+              <c>81000</c>
+              <c>87000</c>
+              <c>1083000</c>
+            </r>
+            <r>
+              <c>Petland</c>
+              <c>3769 E Lincolnway</c>
+              <c>Cheyenne</c>
+              <c>WY</c>
+              <c>82001</c>
+              <c>150000</c>
+              <c>122000</c>
+              <c>148000</c>
+              <c>143000</c>
+              <c>141000</c>
+              <c>152000</c>
+              <c>138000</c>
+              <c>149000</c>
+              <c>142500</c>
+              <c>146000</c>
+              <c>139000</c>
+              <c>151000</c>
+              <c>1721500</c>
+            </r>
+            <r>
+              <c>Pets-N-Stuff</c>
+              <c>1842 Sugarland Dr Ste 113</c>
+              <c>Sheridan</c>
+              <c>WY</c>
+              <c>82801</c>
+              <c>135000</c>
+              <c>100000</c>
+              <c>125000</c>
+              <c>128000</c>
+              <c>135000</c>
+              <c>126000</c>
+              <c>118000</c>
+              <c>119000</c>
+              <c>106000</c>
+              <c>117000</c>
+              <c>134000</c>
+              <c>128000</c>
+              <c>1471000</c>
+            </r>
+            <r>
+              <c>Purr-Fect Pets</c>
+              <c>180 S Bent St</c>
+              <c>Powell</c>
+              <c>WY</c>
+              <c>82435</c>
+              <c>125000</c>
+              <c>102000</c>
+              <c>132000</c>
+              <c>124000</c>
+              <c>120000</c>
+              <c>112000</c>
+              <c>116000</c>
+              <c>106000</c>
+              <c>118000</c>
+              <c>122000</c>
+              <c>124000</c>
+              <c>103000</c>
+              <c>1404000</c>
+            </r>
+            <r>
+              <c>Summit Pets</c>
+              <c>932 Main St</c>
+              <c>Evanston</c>
+              <c>WY</c>
+              <c>82930</c>
+              <c>115000</c>
+              <c>98000</c>
+              <c>100000</c>
+              <c>103000</c>
+              <c>112000</c>
+              <c>114000</c>
+              <c>118000</c>
+              <c>119000</c>
+              <c>102000</c>
+              <c>98000</c>
+              <c>120000</c>
+              <c>115000</c>
+              <c>1314000</c>
+            </r>
+            <r>
+              <c>Summit Pets of Rock Springs</c>
+              <c>2706 Commercial Way</c>
+              <c>Rock Springs</c>
+              <c>WY</c>
+              <c>82901</c>
+              <c>100000</c>
+              <c>92000</c>
+              <c>103000</c>
+              <c>97000</c>
+              <c>113000</c>
+              <c>115000</c>
+              <c>104000</c>
+              <c>101000</c>
+              <c>99000</c>
+              <c>98000</c>
+              <c>102000</c>
+              <c>112000</c>
+              <c>1236000</c>
+            </r>
+          </Data>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxTextInput" />
+    </Node>
+    <Node ToolID="4">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.MultiFieldFormula.MultiFieldFormula">
+        <Position x="702" y="174" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <FieldType>Numeric</FieldType>
+          <Fields orderChanged="False">
+            <Field name="January" />
+            <Field name="February" />
+            <Field name="March" />
+            <Field name="April" />
+            <Field name="May" />
+            <Field name="June" />
+            <Field name="July" />
+            <Field name="August " />
+            <Field name="September" />
+            <Field name="October" />
+            <Field name="November" />
+            <Field name="December" />
+            <Field name="ZIP" selected="False" />
+            <Field name="Total " selected="False" />
+            <Field name="*Unknown" selected="False" />
+          </Fields>
+          <NewFieldAddOn>%</NewFieldAddOn>
+          <NewFieldAddOnPos>Prefix</NewFieldAddOnPos>
+          <CopyOutput value="True" />
+          <Expression>ToString(Round([_CurrentField_]/[Total ]*100,0.01))+ "%"</Expression>
+          <ChangeFieldType value="False" />
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText>ToString(Round([_CurrentField_]/[Total ]*100,0.01))+ "%"</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxMultiFieldFormula" />
+    </Node>
+    <Node ToolID="5">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.Formula.Formula">
+        <Position x="726" y="42" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <FormulaFields>
+            <FormulaField expression="ToNumber(Round([January]/[Total ] * 100, 0.01))" field="January" size="8" type="Double" enabled="true" />
+          </FormulaFields>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText><![CDATA[January = ToNumber(Round([January]/[Total ] * 100, 0.01))
+]]></DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxFormula" />
+    </Node>
+    <Node ToolID="6">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.AlteryxSelect.AlteryxSelect">
+        <Position x="628" y="42" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <OrderChanged value="False" />
+          <CommaDecimal value="False" />
+          <SelectFields>
+            <SelectField field="NAME" selected="True" />
+            <SelectField field="ADDRESS" selected="True" />
+            <SelectField field="CITY" selected="True" />
+            <SelectField field="STATE" selected="True" />
+            <SelectField field="ZIP" selected="True" />
+            <SelectField field="January" selected="True" />
+            <SelectField field="Total " selected="True" />
+            <SelectField field="*Unknown" selected="False" />
+          </SelectFields>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxSelect" />
+    </Node>
+    <Node ToolID="8">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.AutoField.AutoField">
+        <Position x="327" y="174" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Fields>
+            <Field field="NAME" selected="True" />
+            <Field field="ADDRESS" selected="True" />
+            <Field field="CITY" selected="True" />
+            <Field field="STATE" selected="True" />
+            <Field field="*Unknown" selected="True" />
+          </Fields>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+        <MetaInfo connection="Output">
+          <RecordInfo>
+            <Field name="NAME" size="29" source="TextInput:" type="V_String" />
+            <Field name="ADDRESS" size="28" source="TextInput:" type="V_String" />
+            <Field name="CITY" size="12" source="TextInput:" type="String" />
+            <Field name="STATE" size="2" source="TextInput:" type="String" />
+            <Field name="ZIP" source="TextInput:" type="Int32" />
+            <Field name="January" source="TextInput:" type="Int32" />
+            <Field name="February" source="TextInput:" type="Int32" />
+            <Field name="March" source="TextInput:" type="Int32" />
+            <Field name="April" source="TextInput:" type="Int32" />
+            <Field name="May" source="TextInput:" type="Int32" />
+            <Field name="June" source="TextInput:" type="Int32" />
+            <Field name="July" source="TextInput:" type="Int32" />
+            <Field name="August " source="TextInput:" type="Int32" />
+            <Field name="September" source="TextInput:" type="Int32" />
+            <Field name="October" source="TextInput:" type="Int32" />
+            <Field name="November" source="TextInput:" type="Int32" />
+            <Field name="December" source="TextInput:" type="Int32" />
+            <Field name="Total " source="TextInput:" type="Int32" />
+          </RecordInfo>
+        </MetaInfo>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxAutoField" />
+    </Node>
+    <Node ToolID="9">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.AlteryxSelect.AlteryxSelect">
+        <Position x="444" y="174" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <OrderChanged value="False" />
+          <CommaDecimal value="False" />
+          <SelectFields>
+            <SelectField field="January" selected="True" type="Double" size="8" />
+            <SelectField field="February" selected="True" type="Double" size="8" />
+            <SelectField field="March" selected="True" type="Double" size="8" />
+            <SelectField field="April" selected="True" type="Double" size="8" />
+            <SelectField field="May" selected="True" type="Double" size="8" />
+            <SelectField field="June" selected="True" type="Double" size="8" />
+            <SelectField field="July" selected="True" type="Double" size="8" />
+            <SelectField field="August " selected="True" type="Double" size="8" />
+            <SelectField field="September" selected="True" type="Double" size="8" />
+            <SelectField field="October" selected="True" type="Double" size="8" />
+            <SelectField field="November" selected="True" type="Double" size="8" />
+            <SelectField field="December" selected="True" type="Double" size="8" />
+            <SelectField field="Total " selected="True" type="Double" size="8" />
+            <SelectField field="*Unknown" selected="True" />
+          </SelectFields>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxSelect" />
+    </Node>
+    <Node ToolID="10">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.Formula.Formula">
+        <Position x="918" y="42" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <FormulaFields>
+            <FormulaField expression="ToString([January],0.01) +&quot;%&quot;" field="January" size="16384" type="WString" enabled="true" />
+          </FormulaFields>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText><![CDATA[January = ToString([January],0.01) +"%"
+]]></DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxFormula" />
+    </Node>
+    <Node ToolID="11">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.AlteryxSelect.AlteryxSelect">
+        <Position x="827" y="42" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <OrderChanged value="False" />
+          <CommaDecimal value="False" />
+          <SelectFields>
+            <SelectField field="ZIP" selected="False" />
+            <SelectField field="January" selected="True" type="WString" size="16384" />
+            <SelectField field="*Unknown" selected="True" />
+          </SelectFields>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxSelect" />
+    </Node>
+    <Node ToolID="13">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.AlteryxSelect.AlteryxSelect">
+        <Position x="822" y="174" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <OrderChanged value="False" />
+          <CommaDecimal value="False" />
+          <SelectFields>
+            <SelectField field="New_NAME" selected="True" />
+            <SelectField field="New_ADDRESS" selected="True" />
+            <SelectField field="New_CITY" selected="True" />
+            <SelectField field="New_STATE" selected="True" />
+            <SelectField field="%January" selected="True" type="WString" size="16384" />
+            <SelectField field="%February" selected="True" type="WString" size="16384" />
+            <SelectField field="%March" selected="True" type="WString" size="16384" />
+            <SelectField field="%April" selected="True" type="WString" size="16384" />
+            <SelectField field="%May" selected="True" type="WString" size="16384" />
+            <SelectField field="%June" selected="True" type="WString" size="16384" />
+            <SelectField field="%July" selected="True" type="WString" size="16384" />
+            <SelectField field="%August " selected="True" type="WString" size="16384" />
+            <SelectField field="%September" selected="True" type="WString" size="16384" />
+            <SelectField field="%October" selected="True" type="WString" size="16384" />
+            <SelectField field="%November" selected="True" type="WString" size="16384" />
+            <SelectField field="%December" selected="True" type="WString" size="16384" />
+            <SelectField field="*Unknown" selected="False" />
+          </SelectFields>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxSelect" />
+    </Node>
+    <Node ToolID="14">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.MultiFieldFormula.MultiFieldFormula">
+        <Position x="942" y="174" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <FieldType>Text</FieldType>
+          <Fields orderChanged="False">
+            <Field name="%January" />
+            <Field name="%February" />
+            <Field name="%March" />
+            <Field name="%April" />
+            <Field name="%May" />
+            <Field name="%June" />
+            <Field name="%July" />
+            <Field name="%August " />
+            <Field name="%September" />
+            <Field name="%October" />
+            <Field name="%November" />
+            <Field name="%December" />
+            <Field name="New_NAME" selected="False" />
+            <Field name="New_ADDRESS" selected="False" />
+            <Field name="New_CITY" selected="False" />
+            <Field name="New_STATE" selected="False" />
+            <Field name="*Unknown" selected="False" />
+          </Fields>
+          <NewFieldAddOn>New</NewFieldAddOn>
+          <NewFieldAddOnPos>Prefix</NewFieldAddOnPos>
+          <CopyOutput value="True" />
+          <Expression>ToString([_CurrentField_], 0.01) + "%"</Expression>
+          <ChangeFieldType value="False" />
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText>ToString([_CurrentField_], 0.01) + "%"</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxMultiFieldFormula" />
+    </Node>
+  </Nodes>
+  <Connections>
+    <Connection>
+      <Origin ToolID="1" Connection="Output" />
+      <Destination ToolID="4" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="1" Connection="Output" />
+      <Destination ToolID="6" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="3" Connection="Output" />
+      <Destination ToolID="8" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="4" Connection="Output" />
+      <Destination ToolID="13" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="5" Connection="Output" />
+      <Destination ToolID="11" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="6" Connection="Output" />
+      <Destination ToolID="5" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="8" Connection="Output" />
+      <Destination ToolID="9" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="9" Connection="Output" />
+      <Destination ToolID="1" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="11" Connection="Output" />
+      <Destination ToolID="10" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="13" Connection="Output" />
+      <Destination ToolID="14" Connection="Input" />
+    </Connection>
+  </Connections>
+  <Properties>
+    <Memory default="True" />
+    <GlobalRecordLimit value="0" />
+    <TempFiles default="True" />
+    <Annotation on="True" includeToolName="False" />
+    <ConvErrorLimit value="10" />
+    <ConvErrorLimit_Stop value="False" />
+    <CancelOnError value="False" />
+    <DisableBrowse value="False" />
+    <EnablePerformanceProfiling value="False" />
+    <RunWithE2 value="True" />
+    <PredictiveToolsCodePage value="1252" />
+    <DisableAllOutput value="False" />
+    <ShowAllMacroMessages value="False" />
+    <ShowConnectionStatusIsOn value="True" />
+    <ShowConnectionStatusOnlyWhenRunning value="True" />
+    <ZoomLevel value="0" />
+    <LayoutType>Horizontal</LayoutType>
+    <IsTemplate value="False" />
+    <MetaInfo>
+      <NameIsFileName value="True" />
+      <Name>DIRETO AO PONTO #059 - MULTI-FIELD FORMULA</Name>
+      <Description />
+      <RootToolName />
+      <ToolVersion />
+      <ToolInDb value="False" />
+      <CategoryName />
+      <SearchTags />
+      <Author />
+      <Company />
+      <Copyright />
+      <DescriptionLink actual="" displayed="" />
+      <Example>
+        <Description />
+        <File />
+      </Example>
+      <WorkflowId value="b8d471e8-5c07-4cc9-a720-f56fae4c6401" />
+      <Telemetry>
+        <PreviousWorkflowId value="098ff6b5-91ba-4867-ad16-840305300c18" />
+        <OriginWorkflowId value="098ff6b5-91ba-4867-ad16-840305300c18" />
+      </Telemetry>
+      <PlatformWorkflowId value="" />
+    </MetaInfo>
+    <Events>
+      <Enabled value="True" />
+    </Events>
+  </Properties>
+</AlteryxDocument>
