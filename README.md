@@ -8,7 +8,7 @@ Os usuários do Alteryx precisam continuamente de algum tipo de gerador de docum
 
 O novo fluxo de trabalho aborda essas deficiências. Além disso, a versão mais recente gera uma grande imagem do fluxo de trabalho completo como parte da documentação. Se necessário, uma versão maior dessa imagem é salva no diretório de saídas do Autodocumenter.
 
-A ferramenta completa foi organizada na pasta: [`Alteryx_Auto_Documenter_Functional`](file:///c:/Users/adilsonss/OneDrive%20-%20Suzano%20S%20A/PrintSap/Notebok/alteryx_auto_doc_revamp-master/Alteryx_Auto_Documenter_Functional)
+A ferramenta completa foi organizada na pasta: [`Alteryx_Doc`](file:///c:/Users/adilsonss/OneDrive%20-%20Suzano%20S%20A/PrintSap/Notebok/alteryx_auto_doc_revamp-master/Alteryx_Auto_Documenter_Functional)
 
 ## Installation
 
@@ -29,7 +29,7 @@ Note: If running as a non-admin within Alteryx, ensure that the bundled installe
 
 ## Como Começar
 
-1. Vá para a pasta [`Alteryx_Auto_Documenter_Functional`](file:///c:/Users/adilsonss/OneDrive%20-%20Suzano%20S%20A/PrintSap/Notebok/alteryx_auto_doc_revamp-master/Alteryx_Auto_Documenter_Functional).
+1. Vá para a pasta [`Alteryx_Doc`](file:///c:/Users/adilsonss/OneDrive%20-%20Suzano%20S%20A/PrintSap/Notebok/alteryx_auto_doc_revamp-master/Alteryx_Auto_Documenter_Functional).
 2. Execute o [`Installer.yxwz`](file:///c:/Users/adilsonss/OneDrive%20-%20Suzano%20S%20A/PrintSap/Notebok/alteryx_auto_doc_revamp-master/Alteryx_Auto_Documenter_Functional/Installer.yxwz) para instalar as dependências (Pillow, xmltodict).
 3. Execute o [`Image Workflow.yxwz`](file:///c:/Users/adilsonss/OneDrive%20-%20Suzano%20S%20A/PrintSap/Notebok/alteryx_auto_doc_revamp-master/Alteryx_Auto_Documenter_Functional/Image%20Workflow.yxwz) para documentar seus fluxos.
 
